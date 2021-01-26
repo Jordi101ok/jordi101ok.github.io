@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>BrellianJordi</title>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+    <style>
+
+    .contain {
+      position: relative;
+      width: 50px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color:navy;
+    }
+
+    .contain:hover .overlay{
+      opacity: 1;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .text {
+      color: gold;
+      font-size: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid pt-2" style="background-color: navy;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-light text-left font-weight-bolder" style="font-size: xx-large;">JOR<img src="D letter.png" alt="" width="25px" height="30px">I</p>
+                </div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-sm justify-content-center" style="background-color: navy;">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="main.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="aboutMe.html">About me</a>
+                            </li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row pt-5 pb-5">
+        <div class="col text-center"><h1>ABOUT ME</h1></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="foto profil binus.jfif" class="rounded-circle mx-auto d-block" alt="" width="150">
+        </div>
+      </div>
+      <div class="row p-5">
+        <div class="col text-center">
+          Hi, my name is Brellian Jordi, i was born in jakarta and im 20 years old. <br>
+          I am a computer science student at BINUS, 
+          and working part-time at Course-Net as <br> a coach. I have been working at Course-net since september last year, 12 hours a week. <br>
+          Currently learning on web development framework such as bootstrap and laravel. <br>
+          you can check my resume, click here!
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-3" style="background-color: navy;">
+        <div class="d-flex justify-content-center">
+          <p class="text-light text-left font-weight-bolder" style="font-size: xx-large;">JOR<img src="D letter.png" alt="" width="25px" height="30px">I</p>
+        </div>
+        <div class="container border-top border-light pt-3">
+          <div class="row pb-2">
+            <div class="col"><p class="text-center text-warning"><b>CONTACT ME!</b></p></div>
+          </div>
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col">
+              <div class="d-flex justify-content-center">
+                <a href="https://github.com/Jordi101ok" target="_blank" rel="noopener noreferrer">
+                  <div class="contain">
+                    <img src="github icon.png" alt="github" class="image">
+                    <div class="overlay">
+                      <div class="text">GitHub</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/jordi-brellian-7092551b9/" target="_blank" rel="noopener noreferrer">
+                  <div class="contain">
+                    <img src="linkedin icon.png" alt="linkedin" class="image">
+                    <div class="overlay">
+                      <div class="text">LinkedIn</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex justify-content-center">
+                <a href="mailto:brellian.jordi@binus.ac.id" target="_blank" rel="noopener noreferrer">
+                  <div class="contain">
+                    <img src="email icon.png" alt="email" class="image">
+                    <div class="overlay">
+                      <div class="text">Email</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex justify-content-center">
+                <div class="contain">
+                  <img src="line logo.png" alt="line" class="image" data-toggle="tooltip" data-placement="top" title="line ID : 081286157273">
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container-fluid bg-dark text-center text-light pb-5 pt-3">
+        Copyrights @ 2020 Brellian Jordi. All rights reserved.
+      </div>
+
+</body>
+</html>
