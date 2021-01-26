@@ -1,0 +1,171 @@
+footer {
+    background-color: lightsteelblue;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    float: inline-end;
+}
+
+.text1 {
+    color: white;
+    border-right: thick solid white;
+    padding: 20px;
+    text-align: center;
+    padding-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: inline-block
+}
+
+.container {
+    padding-top: 47px;
+    padding-bottom: 48px;
+    height: 595px;
+}
+
+.image1 {
+    width: 100%;
+    height: 500px;
+}
+
+.image2 {
+    width: 100%;
+    height: 500px;
+}
+
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rightContainer {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: black;
+}
+
+.leftContainer {
+    width: 50%;
+    background-color: black;
+    float: left;
+    height: 500px;
+}
+
+.roundedRectangle1 {
+    height: 110px;
+    width: 700px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 14%;
+    left: 2%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.roundedRectangle2 {
+    height: 110px;
+    width: 700px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 14%;
+    right: 2%;
+    text-align: center;
+    font-size: x-large;
+}
+.operatorText1 {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    bottom: 35%;
+}
+
+.operatorText2 {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    right: 17%;
+    bottom: 35%;
+}
+
+.text2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-left: 80px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+header:hover .dropdownContentNewmode{
+    display: block;
+}
+
+header:hover .dropdownContentOperator{
+    display: block;
+}
+
+header:hover .dropdownContentMaps{
+    display: block;
+}
+
+header:hover .dropdownContentPreorder{
+    display: block;
+}
+
+
+.dropdownContentNewmode {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    left: 32%;
+    text-align: center;
+    z-index: 1;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.dropdownContentMaps {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    left: 52%;
+    text-align: center;
+    z-index: 1;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.dropdownContentOperator {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    left: 65%;
+    text-align: center;
+    z-index: 1;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.dropdownContentPreorder {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    left: 88%;
+    text-align: center;
+    z-index: 1;
+    padding: 3px;
+    border-radius: 2px;
+}

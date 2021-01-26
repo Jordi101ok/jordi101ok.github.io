@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="preorderCSS.css">
+    <script src="preorderJS.js"></script>
+    <title>Document</title>
+</head>
+
+<header>
+    <a href="Homepage.html" class="text1">RAINBOW SEVEN SIEGE</a>
+    <a href="newMode.html" class="text2">NEW Mode</a>
+    <div class="dropdownContentNewmode">More on the<br> 
+        launch of new mode <br>
+        "lights  out"
+    </div>
+    <a href="mapsPage.html" class="text2">Maps</a>
+    <div class="dropdownContentMaps">
+        learn various <br>
+        the maps in <br>
+        this game
+    </div>
+    <a href="operatorPage.html" class="text2">Operator</a>
+    <div class="dropdownContentOperator">
+        check out the<br>
+        operators that<br>
+        suits your gameplay!
+    </div> 
+    <a href="preorderPage.html" class="text2">Pre-Order</a>
+    <div class="dropdownContentPreorder">
+        Pre-Order<br>
+        now!
+    </div>
+</header>
+
+<body>
+    <img src="preorderBackground.jpg">
+    <div class="text3"><b>Pre-order here!</b></div>
+    <div class="formContainer">
+        <form name="myForm" onsubmit="validation()">
+            Username:<br>
+            <input type="text" id="username" pattern="user_[A-z]{5}" required size="40" placeholder='E.g. user_abcde'><br><br>
+            Password:<br>
+            <input type="password" id="password" required size="40"><br><br>
+            Address:<br>
+            <input type="text" id="address" required size="40"><br><br>
+            Number of copies:<br>
+            <input type="number" id="Copies" min="1" max="5" required><br><br>
+            Type of games<br>
+            <input type="text" id="gamesType" required size="40" spellcheck="true" ><br><br>
+            <input type="checkbox" required><label class="terms">Terms and Service agreement</label><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+    </div>
+</body>
+
+</html>
